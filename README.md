@@ -1,6 +1,6 @@
 # kafka-workshop
 
-### Download the source
+- Download the source
 
 ```
 wget https://downloads.apache.org/kafka/2.5.0/kafka_2.12-2.5.0.tgz
