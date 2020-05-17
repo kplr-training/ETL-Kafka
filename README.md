@@ -1,5 +1,7 @@
 # kafka-workshop
 
+<img src="https://media.makeameme.org/created/one-does-not-5b913b.jpg" width="150"></img>
+
 - Download the source
 
 ```
@@ -18,4 +20,4 @@ bin/kafka-server-start.sh config/server.properties&
 ```
 
 
-<img src="https://media.makeameme.org/created/one-does-not-5b913b.jpg" width="100"></img>
+
