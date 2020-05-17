@@ -1,5 +1,7 @@
 # kafka-workshop
 
+- Try to understand what you're doing, and why. Really.
+
 <img src="https://media.makeameme.org/created/one-does-not-5b913b.jpg" width="150"></img>
 
 - Download the source
