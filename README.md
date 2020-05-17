@@ -1,4 +1,4 @@
-## kafka-workshop
+## Getting up & running
 
 - Try to understand what you're doing, and why. Really.
 
@@ -7,6 +7,8 @@
 #### Prerequesites : 
 
 - You are properly connected to your Linux instance (RHEL/Centos/Amazon Linux)
+
+- Install Java
 
 ```
 sudo yum install -y -q java-1.8.0-openjdk
@@ -31,7 +33,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties >zk.log&
 bin/kafka-server-start.sh config/server.properties >ks.log&
 ```
 
-- Check everything is ok
+#### Check everything is ok
 
 <img src="https://blog.iron.io/wp-content/uploads/2014/04/stay-paranoid-and-trust-no-one.png" width="80"></img>
 ```
