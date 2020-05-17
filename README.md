@@ -30,10 +30,12 @@ bin/zookeeper-server-start.sh config/zookeeper.properties >zk.log&
 bin/kafka-server-start.sh config/server.properties >ks.log&
 ```
 
+<img src="https://blog.iron.io/wp-content/uploads/2014/04/stay-paranoid-and-trust-no-one.png" width="80"></img>
+
+
 - Check everything is ok
   - ps command : you should have 2 java processes
   - Lookup zk.log & ks.log
 
-<img src="https://blog.iron.io/wp-content/uploads/2014/04/stay-paranoid-and-trust-no-one.png" width="125"></img>
 
 
