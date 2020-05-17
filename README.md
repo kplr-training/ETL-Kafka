@@ -43,7 +43,6 @@ bin/kafka-server-start.sh config/server.properties >ks.log&
   - Lookup zk.log & ks.log : Make sure everything is fine
 ```
 
-```
-<img width="200" alt="Screen Shot 2020-05-17 at 13 50 37" src="https://user-images.githubusercontent.com/28993140/82143641-9cdb3b00-9845-11ea-9c6f-8327994ec2a1.png">
-```
+<img width="200" src="https://user-images.githubusercontent.com/28993140/82143641-9cdb3b00-9845-11ea-9c6f-8327994ec2a1.png">
+
 
