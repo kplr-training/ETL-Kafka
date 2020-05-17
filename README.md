@@ -16,3 +16,6 @@ bin/zookeeper-server-start.sh config/zookeeper.properties&
 ```
 bin/kafka-server-start.sh config/server.properties&
 ```
+
+
+<img  width="100">https://media.makeameme.org/created/one-does-not-5b913b.jpg</img>
