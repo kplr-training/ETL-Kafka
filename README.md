@@ -2,7 +2,7 @@
 
 - Try to understand what you're doing, and why. Really.
 
-<img src="https://media.makeameme.org/created/one-does-not-5b913b.jpg" width="150"></img>
+<img src="https://media.makeameme.org/created/one-does-not-5b913b.jpg" width="125"></img>
 
 - Prerequesites : 
 
@@ -30,5 +30,10 @@ bin/zookeeper-server-start.sh config/zookeeper.properties >zk.log&
 bin/kafka-server-start.sh config/server.properties >ks.log&
 ```
 
+- Check everything is ok
+  - ps command : you should have 2 java processes
+  - Lookup zk.log & ks.log
+
+<img src="https://blog.iron.io/wp-content/uploads/2014/04/stay-paranoid-and-trust-no-one.png" width="125"></img>
 
 
