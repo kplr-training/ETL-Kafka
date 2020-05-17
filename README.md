@@ -9,10 +9,10 @@ cd kafka_2.12-2.5.0
 ```
 - Start a quick & dirty single-node Zookeeper instance
 ```
-bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/zookeeper-server-start.sh config/zookeeper.properties&
 ```
 
 - Start the Kafka Server
 ```
-bin/kafka-server-start.sh config/server.properties
+bin/kafka-server-start.sh config/server.properties&
 ```
