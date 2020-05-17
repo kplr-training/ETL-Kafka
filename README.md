@@ -39,7 +39,7 @@ bin/kafka-server-start.sh config/server.properties >ks.log&
 
 <img src="https://blog.iron.io/wp-content/uploads/2014/04/stay-paranoid-and-trust-no-one.png" width="80"></img>
 ```
-  - ps command : you should have 2 java processes
+  - ps command output : you should have 2 java processes
   - Lookup zk.log & ks.log : Make sure everything is fine
 ```
 
