@@ -1,0 +1,9 @@
+
+#### Setup Your Java Classpath to include Kafka Libraries
+
+````
+export KAFKA_LIB=/home/ec2-user/kafka_2.12-2.5.0/libs
+export CLASSPATH=.:$KAFKA_LIB/*
+````
+
+
