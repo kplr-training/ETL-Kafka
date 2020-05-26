@@ -1,0 +1,65 @@
+
+#### Setup Kafka Connector : Spool Dir
+
+### Install the connector
+
+````
+confluent-hub install jcustenborder/kafka-connect-spooldir:latest
+````
+
+
+### Create the connector definition
+
+Create a spooldir.json file with the following contents:
+````
+{
+  "name": "CsvSpoolDir",
+  "config": {
+    "tasks.max": "1",
+    "connector.class": "com.github.jcustenborder.kafka.connect.spooldir.SpoolDirCsvSourceConnector",
+    "input.path": "/path/to/data",
+    "input.file.pattern": "csv-spooldir-source.csv",
+    "error.path": "/path/to/error",
+    "finished.path": "/path/to/finished",
+    "halt.on.error": "false",
+    "topic": "spooldir-testing-topic",
+    "csv.first.row.as.header": "true",
+    "schema.generation.enabled": "true"
+  }
+}
+````
+
+### Load the connector into confluent 
+
+````
+confluent local load spooldir -- -d spooldir.json
+````
+
+### Test the connector
+
+````
+mkdir data && curl "https://api.mockaroo.com/api/58605010?count=1000&key=25fd9c80" > "data/csv-spooldir-source.csv"
+
+cat data/csv-spooldir-source.csv
+
+mkdir error && mkdir finished
+````
+
+Check that the connector is in `RUNNING`state : 
+````
+confluent local status spooldir
+````
+
+Confirm that the messages are being sent to Kafka.
+
+````
+kafka-avro-console-consumer \
+    --bootstrap-server localhost:9092 \
+    --property schema.registry.url=http://localhost:8081 \
+    --topic spooldir-testing-topic \
+    --from-beginning | jq '.'
+````
+
+### congrats !
+
+<img width="200" src="https://www.thewowstyle.com/wp-content/uploads/2015/01/Vladimir-Putin.jpg"/>
