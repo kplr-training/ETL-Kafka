@@ -6,7 +6,10 @@
 Vos Credentiels et IPs respectives vous seront envoyés sur le chat.    
 Une clé SSH .pem vous sera transmise sur le chat.  
 
-- Se connecter en SSH à votre serveur (Linux & Mac):
+
+Si vous êtes sur Linux/Mac :
+
+- Se connecter en SSH à votre serveur :
 
 ```console 
 ssh -i ./SYLAB.pem ec2-user@ICI.ADRESSE.IP.FOURNIE
