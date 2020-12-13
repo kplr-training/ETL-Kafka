@@ -21,6 +21,8 @@ ssh -i ./SYLAB.pem ec2-user@ICI.ADRESSE.IP.FOURNIE
 
 - Se connecter en SSH àà votre serveur (windows):
 
-  - Veillez à mettre le bon user ec2-user, renseigner l'IP qui vous a été fournie, et rentrer le chemin du fichier de clé PPK 
+  - Veillez à mettre le bon user ec2-user  
+  - renseigner l'IP qui vous a été fournie  
+  - rentrer le chemin du fichier de clé PPK 
 
 ![alt text](https://i.ibb.co/tYL7W8y/Annotation-2020-05-08-135954.png)
