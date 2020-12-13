@@ -14,8 +14,13 @@ https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip
 - Vous pouvez également utiliser Putty (moins pratique pour le multi-fenetrage toutefois)
 
 
-Se connecter en SSH à un des workers du cluster :
-```console
-ssh -i ./SYLAB.pem cloudbreak@35.180.197.45
+- Se connecter en SSH à votre serveur (non windows):
+```console 
+ssh -i ./SYLAB.pem ec2-user@ICI.ADRESSE.IP.FOURNIE
 ```
+
+- Se connecter en SSH àà votre serveur (windows):
+
+  - Veillez à mettre le bon user ec2-user, renseigner l'IP qui vous a été fournie, et rentrer le fichier de clé PPK 
+
 ![alt text](https://i.ibb.co/tYL7W8y/Annotation-2020-05-08-135954.png)
