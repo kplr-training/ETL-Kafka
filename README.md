@@ -1,7 +1,10 @@
-# Connexion à votre instance Linux :
+### Bienvenue sur votre espace Workshop Kafka
 
-Vos Credentials et IP respectives vous seront envoyés sur le chat.
-Une clé SSH .pem vous sera transmise sur le chat.
+
+### Connexion à votre instance Linux :
+
+Vos Credentiels et IPs respectives vous seront envoyés sur le chat.    
+Une clé SSH .pem vous sera transmise sur le chat.  
 
 Si vous êtes sur Windows :
 
