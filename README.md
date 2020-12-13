@@ -25,6 +25,7 @@ https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip
 
 - Se connecter en SSH àà votre serveur :
 
+  - NE RECOPIEZ PAS LES VALEURS DANS LA COPIE D'ECRAN CI-DESSOUS
   - Veillez à mettre le bon user ec2-user  
   - renseigner l'IP qui vous a été fournie  
   - rentrer le chemin du fichier de clé PPK 
