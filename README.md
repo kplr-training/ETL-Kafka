@@ -20,8 +20,7 @@ ssh -i ./NOM-DE-VOTRE-CLE.pem ec2-user@ICI.ADRESSE.IP.FOURNIE
 
 #### Si vous êtes sur Windows :
 
-- Installation de Mobaxterm :
-https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip
+- Installation de [Mobaxterm](https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip)  
 
 - Vous pouvez également utiliser Putty (moins pratique pour le multi-fenetrage toutefois)
 
