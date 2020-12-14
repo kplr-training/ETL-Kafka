@@ -9,8 +9,8 @@ Une clé SSH .pem vous sera transmise sur le chat.
 
 #### Si vous êtes sur Linux/Mac :
 
-- Telecharger la clé au format PPK : [KEY.ppk](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.pem)
-  ("Sauvegarder sous"... extenstion ppk)
+- Telecharger la clé au format PPK : [KEY.ppk](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.pem)  
+  ("Sauvegarder sous"... extenstion pem)
   
 - Se connecter en SSH à votre serveur :
 
@@ -25,7 +25,7 @@ https://download.mobatek.net/2022020030522248/MobaXterm_Portable_v20.2.zip
 
 - Vous pouvez également utiliser Putty (moins pratique pour le multi-fenetrage toutefois)
 
-- Telecharger la clé au format PPK : [KEY.ppk](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.ppk)
+- Telecharger la clé au format PPK : [KEY.ppk](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.ppk)  
   ("Sauvegarder sous"... extenstion ppk)
 
 - Se connecter en SSH à votre serveur :
