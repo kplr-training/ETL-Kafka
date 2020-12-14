@@ -9,7 +9,7 @@ Une clé SSH .pem vous sera transmise sur le chat.
 
 #### Si vous êtes sur Linux/Mac :
 
-- Telecharger la clé au format PPK : [KEY.ppk](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.pem)  
+- Telecharger la clé au format PPK : [KEY.pem](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.pem)  
   ("Sauvegarder sous"... extenstion pem)
   
 - Se connecter en SSH à votre serveur :
