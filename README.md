@@ -12,7 +12,7 @@ Si vous êtes sur Linux/Mac :
 - Se connecter en SSH à votre serveur :
 
 ```console 
-ssh -i ./SYLAB.pem ec2-user@ICI.ADRESSE.IP.FOURNIE
+ssh -i ./NOM-DE-VOTRE-CLE.pem ec2-user@ICI.ADRESSE.IP.FOURNIE
 ```
 
 Si vous êtes sur Windows :
