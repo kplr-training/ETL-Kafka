@@ -12,6 +12,8 @@ Une clé SSH .pem vous sera transmise sur le chat.
 - Telecharger la clé au format PPK : [KEY.pem](https://raw.githubusercontent.com/mehdi-lamrani/kafka-workshop/master/res/bin/SAP-KEY.pem)  
   ("Sauvegarder sous"... extenstion pem)
   
+- `chmod 400 SAP-KEY.pem`
+  
 - Se connecter en SSH à votre serveur :
 
 ```console 
