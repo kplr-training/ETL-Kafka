@@ -1,0 +1,12 @@
+https://docs.confluent.io/platform/current/ksqldb/tutorials/basics-local.html
+
+Notes : 
+
+- You should cd into the /usr folder for commands to work
+
+- The offical latest confluent tutorial has some deprecated syntax
+
+```
+CREATE TABLE users_original (GENDER STRING, REGIONID STRING,USERID INT PRIMARY KEY) WITH (kafka_topic='users', value_format='JSON');
+```
+
